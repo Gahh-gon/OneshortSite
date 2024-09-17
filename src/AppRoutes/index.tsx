@@ -10,7 +10,7 @@ export default function AppRoutes(){
              <Router>
                  <Navbar />
                  <Routes>
-                     <Route path="/about" element={<About />} />
+                     <Route path="/" element={<About />} />
                      <Route path="/characters" element={<Characters/>}/>
                      <Route path="/gameInfo" element={<GameInfo/>} />
                      <Route path="/gamingcontent" element={<GamingContent/>} />
